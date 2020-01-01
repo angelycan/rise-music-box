@@ -1,0 +1,43 @@
+[26.008605957] 2019-12-31 21:29:32,865 - INFO - launcher: Starting sanity checks
+[26.008605957] 2019-12-31 21:29:32,865 - INFO - launcher: Checking for Python 3.5+
+[26.008605957] 2019-12-31 21:29:32,865 - INFO - launcher: Checking console encoding
+[26.008605957] 2019-12-31 21:29:32,865 - INFO - launcher: Setting console encoding to UTF-8
+[27.008771896] 2019-12-31 21:29:32,866 - INFO - launcher: Ensuring we're in the right environment
+[28.009653091] 2019-12-31 21:29:32,867 - INFO - launcher: Adding local bins/ folder to path
+[425.135135651] 2019-12-31 21:29:33,264 - INFO - launcher: Required checks passed.
+[430.136203766] 2019-12-31 21:29:33,269 - INFO - launcher: Optional checks passed.
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.0183234214782715] 2019-12-31 21:29:33,857 - WARNING - musicbot.config | In config.py::MainThread(5192), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.0183234214782715] 2019-12-31 21:29:33,857 - INFO - musicbot.config | In config.py::MainThread(5192), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.0183234214782715] 2019-12-31 21:29:33,857 - WARNING - musicbot.config | In config.py::MainThread(5192), line 230 in create_empty_file_ifnoexist: Creating config/blacklist.txt
+[1.0193238258361816] 2019-12-31 21:29:33,858 - WARNING - musicbot.config | In config.py::MainThread(5192), line 230 in create_empty_file_ifnoexist: Creating config/whitelist.txt
+[1.0203237533569336] 2019-12-31 21:29:33,859 - DEBUG - musicbot.config | In config.py::MainThread(5192), line 315 in find_autoplaylist: Copying _autoplaylist.txt to autoplaylist.txt
+[1.0203237533569336] 2019-12-31 21:29:33,859 - DEBUG - musicbot.bot | In bot.py::MainThread(5192), line 225 in _setup_logging: Set logging level to INFO
+[1.0223243236541748] 2019-12-31 21:29:33,861 - DEBUG - musicbot.json | In json.py::MainThread(5192), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.0513336658477783] 2019-12-31 21:29:33,890 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 90 in __init__: Starting MusicBot 66964a0
+[1.0513336658477783] 2019-12-31 21:29:33,890 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[6.7991571426391602] 2019-12-31 21:29:39,638 - DEBUG - musicbot.bot | In bot.py::MainThread(5192), line 951 in on_ready: Connection established, ready to go.
+[6.8001580238342285] 2019-12-31 21:29:39,639 - DEBUG - musicbot.bot | In bot.py::MainThread(5192), line 342 in _cache_app_info: Caching app info
+[6.9101922512054443] 2019-12-31 21:29:39,749 - DEBUG - musicbot.bot | In bot.py::MainThread(5192), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[6.9121932983398438] 2019-12-31 21:29:39,751 - DEBUG - musicbot.bot | In bot.py::MainThread(5192), line 789 in _scheck_server_permissions: Checking server permissions
+[6.9121932983398438] 2019-12-31 21:29:39,751 - DEBUG - musicbot.bot | In bot.py::MainThread(5192), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[6.9121932983398438] 2019-12-31 21:29:39,751 - DEBUG - musicbot.bot | In bot.py::MainThread(5192), line 797 in _scheck_configs: Validating config
+[6.9121932983398438] 2019-12-31 21:29:39,751 - DEBUG - musicbot.config | In config.py::MainThread(5192), line 236 in async_validate: Validating options...
+[6.9121932983398438] 2019-12-31 21:29:39,751 - DEBUG - musicbot.config | In config.py::MainThread(5192), line 250 in async_validate: Acquired owner id via API
+[6.9121932983398438] 2019-12-31 21:29:39,751 - DEBUG - musicbot.bot | In bot.py::MainThread(5192), line 800 in _scheck_configs: Validating permissions config
+[6.9131934642791748] 2019-12-31 21:29:39,752 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5192), line 94 in async_validate: Validating permissions...
+[6.9131934642791748] 2019-12-31 21:29:39,752 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5192), line 98 in async_validate: Fixing automatic owner group
+[6.9131934642791748] 2019-12-31 21:29:39,752 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 968 in on_ready: Connected: 660787835368112138/MisterRoboto#1195
+[6.9141938686370850] 2019-12-31 21:29:39,753 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 976 in on_ready: Owner:     429827997160439813/Blazie#6607
+
+[6.9141938686370850] 2019-12-31 21:29:39,753 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 979 in on_ready: Guild List:
+[6.9151940345764160] 2019-12-31 21:29:39,754 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 983 in on_ready:  - Rise - Atiesh
+[6.9151940345764160] 2019-12-31 21:29:39,754 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 1026 in on_ready: Bound to text channels:
+[6.9151940345764160] 2019-12-31 21:29:39,754 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 1027 in <listcomp>:  - Rise - Atiesh/the-bandstand
+[6.9161942005157471] 2019-12-31 21:29:39,755 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 1052 in on_ready: Autojoining voice channels:
+[6.9161942005157471] 2019-12-31 21:29:39,755 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 1053 in <listcomp>:  - Rise - Atiesh/The Rocks Off
+[6.9171946048736572] 2019-12-31 21:29:39,756 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 281 in _join_startup_channels: Attempting to join Rise - Atiesh/The Rocks Off
+[7.7564611434936523] 2019-12-31 21:29:40,595 - INFO - musicbot.bot | In bot.py::MainThread(5192), line 297 in _join_startup_channels: Joined Rise - Atiesh/The Rocks Off
+[7.7584621906280518] 2019-12-31 21:29:40,597 - DEBUG - musicbot.bot | In bot.py::MainThread(5192), line 532 in on_player_stop: Running on_player_stop
