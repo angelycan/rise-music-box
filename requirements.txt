@@ -1,4 +1,3 @@
-git+https://github.com/angelycan/Rise-Music-Box@rewrite
 pynacl==1.2.1
 discord.py[voice]==1.2.5
 pip
